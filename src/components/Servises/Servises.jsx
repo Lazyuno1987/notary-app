@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import css from './Servises.module.scss';
 import Container from 'components/Container/Container';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import Property from '../../assets/img/нерухомість.jpg';
 import Car from '../../assets/img/property.jpg';
 import Debt from '../../assets/img/debt.jpeg';
@@ -19,7 +20,7 @@ const Servises = () => {
               <ul className={css.list}>
                   <li className={css.list_item}>
                       <a className={css.link} href="">
-                          <img className={css.img} src={Property} alt="photo" />
+                          <img className={css.img} src={Property} alt="phot" />
                           <div className={css.div}>
                               <h3 className={css.title_card}>Відчуження нерухомого майна</h3>
                               
