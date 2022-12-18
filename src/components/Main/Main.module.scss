@@ -1,0 +1,50 @@
+@import '../../assets/styles/fonts';
+@import '../../assets/styles/colors';
+@import '../../assets/styles/media';
+.main_background{
+    height: 100vh;
+   padding-top: 80px;
+        background-size: cover;
+            background-position: center;
+    background-image: url('../../assets/img/backgraundFoto.jpg');
+    @include media-tablet {
+padding-top: 122px;
+            min-height: 400px;
+    
+        }
+@include media-desktop {
+
+        min-height: 500px;
+
+    }
+    
+}
+.title{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    max-width: 150px;
+    @include font-noto-light-big;
+  
+    color:$color-white ;
+    font-size: 20px;
+    @include media-tablet {
+        font-size: 26px;
+    
+        }
+}
+.title_second{
+    margin-left: 15px;
+ max-width: 350px;
+@include font-noto-light-big;
+    font-size: 20px;
+
+        color: $color-white ;
+        @include media-tablet {
+                font-size: 26px;
+        
+            }
+}
+.span{
+    color: $color-pink;
+}

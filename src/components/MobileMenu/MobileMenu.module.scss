@@ -1,0 +1,50 @@
+@import '../../assets/styles/fonts';
+@import '../../assets/styles/colors';
+@import '../../assets/styles/media';
+
+.container{
+    position: fixed;
+    width: 40vh;
+    z-index: 50;
+    height: 100vh;
+    top: 0;
+   right: 0;
+    padding-left: 10px;
+   background-color:$color-red ;
+   transform: translateX(100%);
+   transition: 0.2s;
+}
+.container_active{position: fixed;
+    width: 40vh;
+    z-index: 50;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding-left: 10px;
+    background-color: $color-red ;
+    // transform: translateX(-100%);
+    transition: 0.2s;
+    transform: translateX(0);
+}
+
+.icon{
+ display:block;
+ margin-top: 10px;
+ margin-left: auto;
+ margin-right: 10px;
+
+   fill: $color-pink;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+     background-color: $color-red;
+    border: none;
+}
+
+.link{
+color: $color-pink ;
+}
+
+.item{
+    padding: 10px;
+}

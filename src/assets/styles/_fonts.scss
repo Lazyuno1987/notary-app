@@ -1,0 +1,19 @@
+@mixin font-noto-light-medium {
+    font-family: 'Noto Serif';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+};
+
+@mixin font-noto-light-big {
+    font-family: 'Noto Serif';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.5;
+}
+@mixin font-noto-light-bold {
+    font-family: 'Noto Serif';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.5;
+}

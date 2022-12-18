@@ -1,0 +1,48 @@
+@import '../../assets/styles/fonts';
+@import '../../assets/styles/colors';
+@import '../../assets/styles/media';
+
+.background{
+    background-color: $color-grey-bg;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+.link{
+    color: $color-red;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.contact_link{
+    color: $color-red;
+}
+
+.contacts_list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacts_item{
+    margin-bottom: 10px;
+}
+.div{
+    @include media-tablet {
+            font-size: 20px;
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+        }
+            
+    
+
+}

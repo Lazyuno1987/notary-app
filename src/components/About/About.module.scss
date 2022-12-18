@@ -1,0 +1,64 @@
+@import '../../assets/styles/fonts';
+@import '../../assets/styles/colors';
+@import '../../assets/styles/media';
+.background_servises{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: $color-pink;
+}
+
+
+.list{
+    @include media-desktop {
+           display: flex;
+           justify-content: space-between;
+           
+    
+        }
+}
+.list_item{
+   
+    text-align: center;
+    margin-bottom: 50px;
+    @include media-desktop {
+            width: 400px;
+       
+        }
+ 
+}
+.icon{
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+}
+.icon_div{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color:$color-red ;
+    width: 90px;
+    fill: #fff;
+    height: 90px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.title{
+   @include font-noto-light-bold;
+   margin-bottom: 15px;
+}
+
+.text{
+    @include font-noto-light-medium;
+    font-size: 16px ;
+@include media-desktop {
+        font-size: 24px;
+
+    }
+  
+}
+
+.link{
+  color: $color-main-text;  
+}

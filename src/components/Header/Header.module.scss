@@ -1,0 +1,70 @@
+@import '../../assets/styles/fonts';
+@import '../../assets/styles/colors';
+@import '../../assets/styles/media';
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.header_background{
+    position: fixed;
+    border-bottom: 2px solid $color-red;
+        width: 100%;
+        z-index: 10;
+    background-color: $color-pink;
+}
+.header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    @include media-tablet {
+        padding-bottom: 20px;
+            padding-top: 20px;
+    
+        }
+       
+}
+.logo{
+    margin-left: 15px;
+    width: 70px;
+    height: 70px;
+  
+    border-radius: 20px;
+    @include media-tablet {
+        width: 80px;
+            height: 80px;
+    
+        }
+
+}
+
+.logo_menu {
+    width: 30px;
+    height: 30px;
+    fill: $color-red;
+}
+.header_list{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+   
+    @include font-noto-light-medium
+}
+
+.link{
+    color: $color-red;
+    @include font-noto-light-medium;
+    
+    cursor: pointer;
+    &:hover{
+    transform: scale(0.9);
+    font-weight: 700;
+    color:$color-red-hover;
+    }
+}
+// .logo_name{
+// @include font-noto-light-medium
+// }

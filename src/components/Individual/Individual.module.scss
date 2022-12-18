@@ -1,0 +1,68 @@
+@import '../../assets/styles/fonts';
+@import '../../assets/styles/colors';
+@import '../../assets/styles/media';
+
+.background{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $color-pink;
+    display: flex;
+}
+
+.container{
+    @include media-tablet {
+            display: flex;
+    
+        }
+}
+.text{
+text-align: justify;
+    margin-bottom: 15px;
+    @include media-tablet {
+            
+            padding-left: 15px;
+    
+    
+        }
+  @include media-desktop {
+                        width: 500px;
+                       
+                        }
+    }
+.img{
+   
+    @include media-tablet {
+           width: 350px;;
+    
+        }
+                  @include media-desktop {
+                      width: 500px;
+                      ;
+        
+                  }
+}
+.title{
+    text-align: center;
+  
+}
+.div{
+   
+    padding-bottom: 15px;
+@include media-desktop {
+    margin-left: 100px;
+
+    }
+   
+}
+.link{
+  
+        display: flex;
+        margin: 0 auto;
+            width: 100px;
+            justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background-color: $color-red;
+    color: $color-white;
+    padding: 10px;
+}
