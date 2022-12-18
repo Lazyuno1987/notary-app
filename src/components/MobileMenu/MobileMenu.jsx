@@ -1,4 +1,5 @@
 // import { GiHamburgerMenu } from 'react-icons/gi'
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import css from './MobileMenu.module.scss';
 import {SlClose} from 'react-icons/sl'
 import React from 'react'
