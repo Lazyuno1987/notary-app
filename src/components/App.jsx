@@ -1,28 +1,26 @@
 import Header from "./Header/Header";
-import Main from './Main/Main'
-import About from "./About/About";
-import Servises from "./Servises/Servises";
-import Individual from "./Individual/Individual";
 import MobileMenu from './MobileMenu/MobileMenu';
-import Contacts from "./Contacts/Contacts";
-import Cart from "./Cart/Cart";
-import Reviews from './Reviews/Reviews'
 import { useState } from "react";
+import Loyaut from "./Loyaut/Loyaut";
+import NewPage from "./NewPage/NewPage";
+import { Route, Routes } from "react-router-dom";
+
 
 
 export const App = () => {
 
   const [menuActive, setMenuActive] = useState(false)
+  // const [showModal, setShowModal] = useState(true)
   return (
     <div>
       <Header setActive={setMenuActive} />
-      <Main />
-      <About />
-      <Servises />
-      <Individual />
-      <Reviews/>
-      <Cart/>
-      <Contacts/>
+   
+      <Routes>
+        <Route path="/" element={<Loyaut />}/>
+        <Route path="servise" element={<NewPage />} />
+      </Routes>
+      
+          {/* <Modal active={showModal } setActive={setShowModal}/> */}
           <MobileMenu active={menuActive } setActive={setMenuActive} />
 </div>
   );

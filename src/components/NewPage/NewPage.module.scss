@@ -1,0 +1,18 @@
+@import '../../assets/styles/fonts';
+@import '../../assets/styles/colors';
+@import '../../assets/styles/media';
+
+.background{
+    background-color: $color-pink;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title_second{
+margin-bottom: 20px;
+}

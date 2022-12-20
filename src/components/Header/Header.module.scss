@@ -19,9 +19,9 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
-    padding-bottom: 10px;
+    // padding-bottom: 10px;
     @include media-tablet {
-        padding-bottom: 20px;
+        // padding-bottom: 20px;
             padding-top: 20px;
     
         }
@@ -53,6 +53,9 @@
    
     @include font-noto-light-medium
 }
+.list_item{
+    width: 70px;
+}
 
 .link{
     color: $color-red;
@@ -62,8 +65,22 @@
     &:hover{
     transform: scale(0.9);
     font-weight: 700;
-    color:$color-red-hover;
+   color:$color-red-hover;
+   
     }
+   
+}
+.link_active{
+    
+    @include font-noto-light-medium;
+    font-weight: 700;
+   color: $color-red-hover;
+        cursor: pointer;
+        &:hover {
+                transform: scale(0.9);
+                font-weight: 700;
+                color: $color-red-hover;
+}
 }
 // .logo_name{
 // @include font-noto-light-medium

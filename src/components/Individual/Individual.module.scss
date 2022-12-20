@@ -42,6 +42,8 @@ text-align: justify;
                   }
 }
 .title{
+    @include font-noto-light-big;
+   color:  $color-red;
     text-align: center;
   
 }
@@ -55,7 +57,7 @@ text-align: justify;
    
 }
 .link{
-  
+@include font-noto-light-medium;
         display: flex;
         margin: 0 auto;
             width: 100px;

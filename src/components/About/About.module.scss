@@ -60,5 +60,8 @@
 }
 
 .link{
-  color: $color-main-text;  
+  color: $color-main-text; 
+  &:hover{
+    color:$color-red;
+  } 
 }

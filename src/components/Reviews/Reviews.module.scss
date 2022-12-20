@@ -2,8 +2,63 @@
 @import '../../assets/styles/colors';
 @import '../../assets/styles/media';
 
-.div{
-    width: 100%;
-    background-color: $background-footer;
-    height: 200px;
+.comments{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: $color-grey-bg;
+}
+
+.text{
+    padding-left: 15px;
+@include font-noto-light-medium;
+color: $color-red;
+max-width: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 20px;
+
+    &:hover {
+        overflow: visible;
+        white-space: pre-wrap;
+    }
+
+}
+
+.title{
+   text-align: center;
+    @include font-noto-light-bold;
+    color: $color-red;
+ 
+    }
+
+
+.list{
+        display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+              justify-content: space-around;
+        
+}
+
+.item{
+    @include font-noto-light-medium;
+    min-width: 300px;
+    box-shadow: rgb(54 2 46 / 66%) 0px 3px 5px;
+    margin-bottom: 10px;
+   
+} 
+
+.button{
+    display: flex;
+    align-items: center;
+    background-color:$color-red ;
+    color: $color-pink;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    @include font-noto-light-medium;
+   
 }

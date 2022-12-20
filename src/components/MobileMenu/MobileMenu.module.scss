@@ -4,7 +4,7 @@
 
 .container{
     position: fixed;
-    width: 40vh;
+    width: 40%;
     z-index: 50;
     height: 100vh;
     top: 0;
@@ -15,7 +15,7 @@
    transition: 0.2s;
 }
 .container_active{position: fixed;
-    width: 40vh;
+    width: 40%;
     z-index: 50;
     height: 100vh;
     top: 0;
@@ -43,6 +43,12 @@
 
 .link{
 color: $color-pink ;
+@include font-noto-light-medium;
+&:hover{
+    color: $color-pinks;
+    font-weight: 700;
+}
+
 }
 
 .item{

@@ -29,10 +29,11 @@ border-radius: 10px;
 transform: translate(0);
 margin: 0 auto;
 margin-bottom: 20px;
+@include font-noto-light-medium;
 width: 280px;
 &:hover{
-    transition: 0.4s;
-    scale: 1.2;
+    transition: 0.5s;
+    scale: 1.1;
 }
 @include media-tablet {
     width: 280px;
@@ -62,6 +63,9 @@ width: 280px;
      
 .link{
 color: $color-white ;
+&:hover{
+    color:$color-red;
+}
 }
 
 .title{
