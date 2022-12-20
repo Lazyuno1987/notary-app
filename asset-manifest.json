@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7368dfd.css",
-    "main.js": "/static/js/main.0036eeb9.js",
-    "static/media/своє_фото.jpg": "/static/media/своє_фото.a1be75a82a96d78b1fc0.jpg",
-    "static/media/Screenshot_1.png": "/static/media/Screenshot_1.238d16e1560be1aa616c.png",
-    "static/media/heritage.jpg": "/static/media/heritage.a424b4ba3640f169a784.jpg",
-    "static/media/backgraundFoto.jpg": "/static/media/backgraundFoto.a1f7b5e159087ffcb5ce.jpg",
-    "static/media/підписи.jpg": "/static/media/підписи.5f4bc3146104f222a055.jpg",
-    "static/media/backgrounServises.jpg": "/static/media/backgrounServises.9b1a9a90ab393a9b0d67.jpg",
-    "static/media/debt.jpeg": "/static/media/debt.a1ab39e04970fb8f1f7f.jpeg",
-    "static/media/property.jpg": "/static/media/property.0816b3b548887c792c03.jpg",
-    "static/media/договір.jpg": "/static/media/договір.95dbbc8ea116755abe6f.jpg",
-    "static/media/logo3.png": "/static/media/logo3.2335383128c1f852a50d.png",
-    "static/media/нерухомість.jpg": "/static/media/нерухомість.8de23e9488b626fcb426.jpg",
-    "static/media/оренда.jpg": "/static/media/оренда.4b7f31ed461e3eb5c01d.jpg",
-    "index.html": "/index.html",
-    "main.b7368dfd.css.map": "/static/css/main.b7368dfd.css.map",
-    "main.0036eeb9.js.map": "/static/js/main.0036eeb9.js.map"
+    "main.css": "/notary-app/static/css/main.b064e26e.css",
+    "main.js": "/notary-app/static/js/main.e2430b0d.js",
+    "static/media/своє_фото.jpg": "/notary-app/static/media/своє_фото.a1be75a82a96d78b1fc0.jpg",
+    "static/media/Screenshot_1.png": "/notary-app/static/media/Screenshot_1.238d16e1560be1aa616c.png",
+    "static/media/heritage.jpg": "/notary-app/static/media/heritage.a424b4ba3640f169a784.jpg",
+    "static/media/backgraundFoto.jpg": "/notary-app/static/media/backgraundFoto.a1f7b5e159087ffcb5ce.jpg",
+    "static/media/підписи.jpg": "/notary-app/static/media/підписи.5f4bc3146104f222a055.jpg",
+    "static/media/backgrounServises.jpg": "/notary-app/static/media/backgrounServises.9b1a9a90ab393a9b0d67.jpg",
+    "static/media/debt.jpeg": "/notary-app/static/media/debt.a1ab39e04970fb8f1f7f.jpeg",
+    "static/media/property.jpg": "/notary-app/static/media/property.0816b3b548887c792c03.jpg",
+    "static/media/договір.jpg": "/notary-app/static/media/договір.95dbbc8ea116755abe6f.jpg",
+    "static/media/logo3.png": "/notary-app/static/media/logo3.2335383128c1f852a50d.png",
+    "static/media/нерухомість.jpg": "/notary-app/static/media/нерухомість.8de23e9488b626fcb426.jpg",
+    "static/media/оренда.jpg": "/notary-app/static/media/оренда.4b7f31ed461e3eb5c01d.jpg",
+    "index.html": "/notary-app/index.html",
+    "main.b064e26e.css.map": "/notary-app/static/css/main.b064e26e.css.map",
+    "main.e2430b0d.js.map": "/notary-app/static/js/main.e2430b0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7368dfd.css",
-    "static/js/main.0036eeb9.js"
+    "static/css/main.b064e26e.css",
+    "static/js/main.e2430b0d.js"
   ]
 }
