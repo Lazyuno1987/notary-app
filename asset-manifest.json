@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/notary-app/static/css/main.9de16da7.css",
-    "main.js": "/notary-app/static/js/main.6d0a3635.js",
+    "main.css": "/notary-app/static/css/main.b064e26e.css",
+    "main.js": "/notary-app/static/js/main.e2430b0d.js",
     "static/media/своє_фото.jpg": "/notary-app/static/media/своє_фото.a1be75a82a96d78b1fc0.jpg",
     "static/media/Screenshot_1.png": "/notary-app/static/media/Screenshot_1.238d16e1560be1aa616c.png",
     "static/media/heritage.jpg": "/notary-app/static/media/heritage.a424b4ba3640f169a784.jpg",
@@ -15,11 +15,11 @@
     "static/media/нерухомість.jpg": "/notary-app/static/media/нерухомість.8de23e9488b626fcb426.jpg",
     "static/media/оренда.jpg": "/notary-app/static/media/оренда.4b7f31ed461e3eb5c01d.jpg",
     "index.html": "/notary-app/index.html",
-    "main.9de16da7.css.map": "/notary-app/static/css/main.9de16da7.css.map",
-    "main.6d0a3635.js.map": "/notary-app/static/js/main.6d0a3635.js.map"
+    "main.b064e26e.css.map": "/notary-app/static/css/main.b064e26e.css.map",
+    "main.e2430b0d.js.map": "/notary-app/static/js/main.e2430b0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9de16da7.css",
-    "static/js/main.6d0a3635.js"
+    "static/css/main.b064e26e.css",
+    "static/js/main.e2430b0d.js"
   ]
 }
