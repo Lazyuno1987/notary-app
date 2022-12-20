@@ -2,7 +2,7 @@
   "name": "notary",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lazyuno1987.github.io/notary-app/",
+  "homepage": "https://notary-app-henna.vercel.app/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.3",
