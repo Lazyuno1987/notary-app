@@ -10,7 +10,7 @@
 }
 
 .container{
-    @include media-tablet {
+    @include media-desktop {
             display: flex;
     
         }
@@ -30,9 +30,11 @@ text-align: justify;
                         }
     }
 .img{
-   
+   display: block;
+   margin: 0 auto;
     @include media-tablet {
-           width: 350px;;
+           width: 350px;
+           margin: 0;
     
         }
                   @include media-desktop {

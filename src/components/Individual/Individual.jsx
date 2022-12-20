@@ -1,5 +1,5 @@
 import css from './Individual.module.scss';
-import Myself from '../../assets/img/своє_фото.jpg'
+import Myself from '../../assets/img/notary_photo_min.jpg'
 import React from 'react';
 import Container from 'components/Container/Container';
 
