@@ -13,6 +13,7 @@
     justify-content: center;
     gap: 20px;
     padding-bottom: 15px;
+    margin-top: 15px;
 }
 
 .link{
@@ -45,4 +46,18 @@
             
     
 
+}
+
+
+.work_item{
+    color:$color-red;
+}
+.text{
+    color:$color-red ;
+    @include font-noto-light-medium;
+font-size: 24px;
+text-align: center;
+}
+.work_time_list{
+    text-align: center;
 }

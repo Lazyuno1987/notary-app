@@ -1,28 +1,32 @@
 import Container from 'components/Container/Container'
 import React from 'react'
+import { useLocation } from 'react-router-dom'
+import Avto from './Avto'
+import Daruvanya from './Daruvanya'
+import Neruhomist from './Neruhomist'
 import css from './NewPage.module.scss'
+import Orenda from './Orenda'
+import PoperednijDohovir from './PoperednijDohovir'
+import Pozika from './Pozika'
+import ShlubDohovir from './ShlubDohovir'
+import Spadchuna from './Spadchuna'
+
+
+
 const NewPage = () => {
+  const location = useLocation()
+  console.log(location)
   return (
     <div className={css.background}>
-          <Container>
-              <h1 className={css.title}> ПЕРЕЛІК ДОКУМЕНТІВ ДЛЯ ПОСВІДЧЕННЯ ДОГОВОРІВ ВІДЧУЖЕННЯ (КУПІВЛІ-ПРОДАЖУ, ДОВІЧНОГО УТРИМАННЯ, МІНИ) НЕРУХОМОГО МАЙНА:</h1>
-              <h3 className={css.title_second}>ДОКУМЕНТИ, ЯКІ НЕОБХІДНО НАДАТИ СТОРОНАМ (ОРИГІНАЛИ):</h3>
-              <p className={css.text}>Для фізичних осіб:
-Паспорт (вклеєні фотокартки по досягненню 25, 45 років); Свідоцтво про народження, у випадку, якщо особа не досягла 16-річного віку (крім випадків досягнення особою 14-річного віку після 01.10.2016 року, які зобов’язані отримати паспорт);
-Ідентифікаційний номер;
-Паспорт, ідентифікаційний номер іншого з подружжя (якщо нерухоме майно придбане або набувається в шлюбі);
-Свідоцтво про одруження / про укладення шлюбу (якщо нерухоме майно придбане або набувається в шлюбі);
-Нотаріально засвідчена заява – згода іншого з подружжя на укладення договору (або його/її присутність під час укладення договору з паспортом та кодом);
-Дозвіл органу опіки та піклування – якщо в угоді беруть участь малолітні / неповнолітні особи (необхідно для оформлення відчуження / придбання від імені / на ім’я малолітньої / неповнолітнього);
-Нотаріально засвідчена заява батьків, усиновителів чи опікунів про їх згоду на вчинення правочину неповнолітньою особою – якщо в угоді беруть участь неповнолітні у віці від 14 до 18 років (або їх особиста присутність під час укладення договору з паспортами та ідентифікаційними номерами).
-Для юридичних осіб:
-Статут (Установчий договір) юридичної особи;
-Виписка про державну реєстрацію юридичної особи;
-Документ (нотаріально засвідчена довіреність, протокол, рішення), що підтверджує повноваження представника;
-Протокол (рішення) загальних зборів юридичної особи про вчинення продажу / купівлі нерухомого майна;
-Паспорт представника юридичної особи (звертаємо Вашу увагу на наявність в паспорті вклеєних фотокарток при досягненні особою 25-річного або 45-річного віку);
-Ідентифікаційний номер представника юридичної особи;
-Наявність печатки юридичної особи.</p>
+      <Container>
+        {location.pathname==="/servise/:pozika" &&  <Pozika />}
+         {location.pathname==="/servise/:spadchuna" &&  <Spadchuna/>}
+        {location.pathname === "/servise/:avto" && <Avto />}
+        {location.pathname === "/servise/:orenda" && <Orenda />}
+        {location.pathname === "/servise/:poperednijDogovir" && <PoperednijDohovir />}
+        {location.pathname === "/servise/:neruchomist" && <Neruhomist />}
+        {location.pathname === "/servise/:shlub" && <ShlubDohovir />}
+        {location.pathname === "/servise/:daruvanya" && <Daruvanya />}
           </Container>
     </div>
   )

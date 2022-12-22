@@ -82,8 +82,8 @@ const Modal = ({ onClose }) => {
                       required
             id="comment"
           />
-          <button onClick={() => onClose()}>Закрити</button>
-          <button type="submit">Відправити</button>
+          <button className={css.button} onClick={() => onClose()}>Закрити</button>
+          <button className={css.button} type="submit">Відправити</button>
         </form>
       </div>
     </div>,

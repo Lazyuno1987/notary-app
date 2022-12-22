@@ -27,13 +27,27 @@ const openModal = () => {
    dispach(getComments())
   }, [dispach])
 
+  let reverseComments =[];
+
+  const reverse = () => {
+    
+     comments?.map(com => {
+    
+       reverseComments.unshift(com)
+       console.log(reverseComments.slice(0, 5))
+      return reverseComments
+    })
+   
+}
+  reverse()
+
 
   return (
     <section id='reviews' className={css.comments}>
       <Container>
         <h1 className={css.title}>Відгуки</h1>
       <ul className={css.list}>
-{comments?.map(el => (
+{reverseComments?.slice(0, 5)?.map(el => (
 
     <li key={nanoid()} className={css.item}>
           <p className={css.text}>{`${el.name}: "${el.comment}"`}</p>
