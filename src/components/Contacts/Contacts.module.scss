@@ -18,6 +18,10 @@
 
 .link{
     color: $color-red;
+    &:hover{
+    color: $color-red;
+    font-weight: 700;
+    }
 }
 .icon{
     width: 30px;
@@ -25,6 +29,10 @@
 }
 .contact_link{
     color: $color-red;
+    &:hover {
+            color: $color-red;
+            font-weight: 700;
+        }
 }
 
 .contacts_list{

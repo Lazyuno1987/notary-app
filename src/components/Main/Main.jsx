@@ -8,11 +8,10 @@ const Main = () => {
   return (
     <section id="main" className={css.main_background}>
       <Container>
-        <h1 className={css.title}>ТОЧНІ НОТАРІАЛЬНІ РІШЕННЯ</h1>
-        <h3 className={css.title_second}>
-          ПРИВАТНИЙ НОТАРІУС
-          <span className={css.span}> САВКО ОКСАНА</span>
-        </h3>
+        <h1 className={css.title}>ПРИВАТНИЙ НОТАРІУС</h1>
+        
+        <h1 className={css.title}>ОКСАНА ВАСИЛІВНА САВКО</h1>
+        
       </Container>
     </section>
   );

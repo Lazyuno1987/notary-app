@@ -18,7 +18,7 @@ const Header = ({ setActive }) => {
       <section className={css.header_background}>
         <Container  >
             <header className={css.header}>
-           <a href="#main"><img className={css.logo} src={Logo} alt="logo" /></a>
+           <HashLink to='/#main'><img className={css.logo} src={Logo} alt="logo" /></HashLink>
                 <Media queries={{ mobile: { maxWidth: 767 } }}>
           {matches =>
                 matches.mobile && <i>{< GiHamburgerMenu   onClick={()=>setActive(true)} className={css.logo_menu} />}</i>}
