@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4af734ec.css",
-    "main.js": "/static/js/main.a3d677ad.js",
+    "main.css": "/static/css/main.b28bc124.css",
+    "main.js": "/static/js/main.41826bcd.js",
     "static/media/Screenshot_2.png": "/static/media/Screenshot_2.3fdbcff86de5315e2ad7.png",
     "static/media/heritage.jpg": "/static/media/heritage.a424b4ba3640f169a784.jpg",
     "static/media/backgraundFoto.jpg": "/static/media/backgraundFoto.a1f7b5e159087ffcb5ce.jpg",
@@ -16,11 +16,11 @@
     "static/media/нерухомість.jpg": "/static/media/нерухомість.8de23e9488b626fcb426.jpg",
     "static/media/оренда.jpg": "/static/media/оренда.4b7f31ed461e3eb5c01d.jpg",
     "index.html": "/index.html",
-    "main.4af734ec.css.map": "/static/css/main.4af734ec.css.map",
-    "main.a3d677ad.js.map": "/static/js/main.a3d677ad.js.map"
+    "main.b28bc124.css.map": "/static/css/main.b28bc124.css.map",
+    "main.41826bcd.js.map": "/static/js/main.41826bcd.js.map"
   },
   "entrypoints": [
-    "static/css/main.4af734ec.css",
-    "static/js/main.a3d677ad.js"
+    "static/css/main.b28bc124.css",
+    "static/js/main.41826bcd.js"
   ]
 }
