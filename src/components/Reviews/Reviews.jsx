@@ -34,7 +34,7 @@ const openModal = () => {
      comments?.map(com => {
     
        reverseComments.unshift(com)
-       console.log(reverseComments.slice(0, 5))
+     
       return reverseComments
     })
    
